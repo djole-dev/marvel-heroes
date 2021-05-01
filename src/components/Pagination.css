@@ -1,0 +1,31 @@
+.pagination ul{
+    color: #F0141E;
+    display: flex;
+    background-color: white;
+    padding: 8px;
+border-radius: 10px;
+}
+
+.pagination ul li{
+    list-style: none;
+    line-height: 45px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
+    border-radius: 50%;
+    transition: all 0.3s ease;
+
+}
+
+.pagination ul li.numb{
+    border-radius: 50%;
+  height: 45px;
+  width: 45px;
+  margin: 0 3px;
+}
+
+.pagination ul li:hover,.pagination ul li.active{
+    background: #F0141E;
+    color: #fff;
+}
