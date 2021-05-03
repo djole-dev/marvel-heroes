@@ -4,8 +4,7 @@ import "./Search.css";
 import SearchIcon from "@material-ui/icons/Search";
 import Logo from "../marvel.png";
 import Pagination from "./Pagination";
-
-//const hash = "a9ed5d73e1150f09edcb892103eb483d";
+import CardList from "./CardList";
 
 function Search() {
   const appCont = useContext(AppContext);
@@ -20,20 +19,15 @@ function Search() {
           className='search__input'
           type='text'
           onChange={(e) => {
-            appCont.fetchData(e.target.value);
+            appCont.fetchData(e.target.value, 1);
           }}
         />
       </div>
-      <div className='search__result'>{appCont.whatToRender()}</div>
+      <div className='search__result'>
+        <CardList />
+      </div>
       <div className='search__pagination'>
-        {appCont.input === "" ? null : (
-          <Pagination
-            heroesPerPage={appCont.heroesPerPage}
-            totalHeroes={appCont.heroes.length}
-            paginate={appCont.paginate}
-            activePage={appCont.currentPage}
-          />
-        )}
+        {appCont.input === "" ? null : <Pagination />}
       </div>
     </div>
   );

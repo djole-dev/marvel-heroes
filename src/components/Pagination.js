@@ -1,26 +1,36 @@
-import React from "react";
+import React, { useContext } from "react";
 import "./Pagination.css";
+import { AppContext } from "../AppContext";
 
-function Pagination({ heroesPerPage, totalHeroes, paginate, activePage }) {
+function Pagination() {
+  const appCont = useContext(AppContext);
   const pageNumbers = [];
 
-  for (let i = 1; i <= Math.ceil(totalHeroes / heroesPerPage); i++) {
+  for (let i = 1; i <= Math.ceil(appCont.totalNumberOfHeroes / 20); i++) {
     pageNumbers.push(i);
   }
-  
+
+  const changePage = (number) => {
+    appCont.setCurrentPage(number);
+    appCont.fetchData(appCont.input, number);
+  };
+
   return (
     <div className='pagination'>
       <ul>
         {pageNumbers.map((number) =>
-          activePage === number ? (
+          appCont.currentPage === number ? (
             <li
               key={number}
               className='numb active'
-              onClick={() => paginate(number)}>
+              onClick={() => changePage(number)}>
               <span>{number}</span>
             </li>
           ) : (
-            <li key={number} className='numb' onClick={() => paginate(number)}>
+            <li
+              key={number}
+              className='numb'
+              onClick={() => changePage(number)}>
               <span>{number}</span>
             </li>
           )
