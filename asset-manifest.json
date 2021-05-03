@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/marvel-heroes/static/css/main.2a753e69.chunk.css",
-    "main.js": "/marvel-heroes/static/js/main.a360a324.chunk.js",
-    "main.js.map": "/marvel-heroes/static/js/main.a360a324.chunk.js.map",
-    "runtime-main.js": "/marvel-heroes/static/js/runtime-main.70b7392b.js",
-    "runtime-main.js.map": "/marvel-heroes/static/js/runtime-main.70b7392b.js.map",
-    "static/js/2.c8745975.chunk.js": "/marvel-heroes/static/js/2.c8745975.chunk.js",
-    "static/js/2.c8745975.chunk.js.map": "/marvel-heroes/static/js/2.c8745975.chunk.js.map",
-    "static/js/3.3617b8b6.chunk.js": "/marvel-heroes/static/js/3.3617b8b6.chunk.js",
-    "static/js/3.3617b8b6.chunk.js.map": "/marvel-heroes/static/js/3.3617b8b6.chunk.js.map",
+    "main.css": "/marvel-heroes/static/css/main.bf564c56.chunk.css",
+    "main.js": "/marvel-heroes/static/js/main.036131f5.chunk.js",
+    "main.js.map": "/marvel-heroes/static/js/main.036131f5.chunk.js.map",
+    "runtime-main.js": "/marvel-heroes/static/js/runtime-main.9cfb916a.js",
+    "runtime-main.js.map": "/marvel-heroes/static/js/runtime-main.9cfb916a.js.map",
+    "static/js/2.43d7101e.chunk.js": "/marvel-heroes/static/js/2.43d7101e.chunk.js",
+    "static/js/2.43d7101e.chunk.js.map": "/marvel-heroes/static/js/2.43d7101e.chunk.js.map",
+    "static/js/3.e994e733.chunk.js": "/marvel-heroes/static/js/3.e994e733.chunk.js",
+    "static/js/3.e994e733.chunk.js.map": "/marvel-heroes/static/js/3.e994e733.chunk.js.map",
     "index.html": "/marvel-heroes/index.html",
-    "static/css/main.2a753e69.chunk.css.map": "/marvel-heroes/static/css/main.2a753e69.chunk.css.map",
-    "static/js/2.c8745975.chunk.js.LICENSE.txt": "/marvel-heroes/static/js/2.c8745975.chunk.js.LICENSE.txt",
+    "static/css/main.bf564c56.chunk.css.map": "/marvel-heroes/static/css/main.bf564c56.chunk.css.map",
+    "static/js/2.43d7101e.chunk.js.LICENSE.txt": "/marvel-heroes/static/js/2.43d7101e.chunk.js.LICENSE.txt",
     "static/media/marvel.4a9b7724.png": "/marvel-heroes/static/media/marvel.4a9b7724.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.70b7392b.js",
-    "static/js/2.c8745975.chunk.js",
-    "static/css/main.2a753e69.chunk.css",
-    "static/js/main.a360a324.chunk.js"
+    "static/js/runtime-main.9cfb916a.js",
+    "static/js/2.43d7101e.chunk.js",
+    "static/css/main.bf564c56.chunk.css",
+    "static/js/main.036131f5.chunk.js"
   ]
 }
